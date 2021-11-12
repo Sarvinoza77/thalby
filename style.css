@@ -978,3 +978,32 @@ footer h2 {
     text-align: end;
   }
 }
+@media (max-width: 320px){
+  footer .drop h6 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+}
+@media (max-width: 300px){
+  footer .drop h6 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.scroll .fa-angle-up {
+    position: fixed;
+    top: 88%;
+    left: 80%;
+    font-size: 64px;
+    color: darkkhaki;
+    z-index: 100;
+}
+footer .drop h6:nth-child(1) {
+  margin-bottom: 21px;
+}
+
+}
